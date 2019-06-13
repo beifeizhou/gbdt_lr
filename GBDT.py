@@ -9,7 +9,7 @@ from sklearn.metrics import roc_curve
 from sklearn.pipeline import make_pipeline
 import matplotlib.pyplot as plt
 
-path = '/Users/nali/Beifei/ximalaya2015/code_ximalaya/code_GBDT/input/'
+path = ''
 data = pd.read_csv(path+'feature_score.csv',  header=None)
 
 X = data[range(3000)]
